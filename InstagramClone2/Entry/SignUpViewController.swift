@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import FirebaseDatabase
 
 class SignUpViewController: UIViewController {
 
@@ -42,9 +45,34 @@ class SignUpViewController: UIViewController {
         profileImage.clipsToBounds = true
     }
 
+    
     @IBAction func dismiss_OnClick(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func signUpButtonTapped(_ sender: UIButton) {
+
+
+        
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+            if error != nil {
+                print(error!.localizedDescription)
+            } else {
+                print("Registration Successful and will be saved at keychain for \(user)")
+                
+                //Firebase Database
+                let ref = Database.database().reference()
+                let usersReference = ref.child("users")
+                let uid = user?.uid
+                let newUserReference = usersReference.child(uid!)
+                newUserReference.setValue(["username": self.usernameTextField.text!, "email": self.emailTextField.text!])
+                print("description \(newUserReference.description())")
+            
+            }
+        }
+    }
+    
+    
     
 
 }

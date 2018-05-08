@@ -49,7 +49,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="tXc-YN-5ad" kind="presentation" id="rGj-Ya-04s"/>
+                                            <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9X-l5-neK"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -154,7 +154,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="tXc-YN-5ad" kind="presentation" id="gLl-DI-6ef"/>
+                                            <action selector="signUpButtonTapped:" destination="U0g-sR-JJN" eventType="touchUpInside" id="bCY-f3-yi1"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -184,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNm-0J-TsZ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="118" y="1084"/>
+            <point key="canvasLocation" x="118" y="1043"/>
         </scene>
         <!--TabBarId-->
         <scene sceneID="0fB-Ou-N2n">
@@ -198,7 +198,4 @@
     <resources>
         <image name="profile_placeholder" width="256" height="256"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="gLl-DI-6ef"/>
-    </inferredMetricsTieBreakers>
 </document>

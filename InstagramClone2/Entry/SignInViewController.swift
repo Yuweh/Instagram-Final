@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
 
@@ -33,6 +34,15 @@ class SignInViewController: UIViewController {
         
     }
 
-
+    @IBAction func signInTapped(_ sender: UIButton) {
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+            if error != nil {
+                print(error!)
+            } else {
+                print("Registration Successful and will be saved at keychain")
+            }
+        }
+    }
+    
 
 }
