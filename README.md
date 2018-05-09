@@ -11,7 +11,7 @@ works with
 ## Finished App
 I know.. it looks plain but all starts with the login screen, this will be updated XD
 
-<img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignIn.png" width="300">  <img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignUp.png" width="300"> <img src="https://github.com/Yuweh/Instagram-Final/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202018-05-09%20at%2015.33.11.png" width="300"> 
+<img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignIn.png" width="250">  <img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignUp.png" width="250"> <img src="https://github.com/Yuweh/Instagram-Final/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202018-05-09%20at%2015.33.11.png" width="250"> 
 
 
 
