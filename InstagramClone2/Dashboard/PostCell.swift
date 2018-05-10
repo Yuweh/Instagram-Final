@@ -14,11 +14,13 @@ class PostCell: UITableViewCell {
     @IBOutlet weak var usernameButton: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var captionLabel: UILabel!
-    @IBOutlet weak var profileImageView: UIImage!
+    @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var likesLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        profileImageView.layer.cornerRadius = 25
+        profileImageView.clipsToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
