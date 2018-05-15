@@ -11,10 +11,12 @@ works with
 ## Finished App
 Still in Progress XD
 
-<img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignIn.png" width="350">  <img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignUp.png" width="350"> 
-
-
+Home
 <img src="https://github.com/Yuweh/Instagram-Final/blob/master/Screenshots/UpdatedHome.png" width="350"> <img src="https://github.com/Yuweh/Instagram-Final/blob/master/Screenshots/Camera.png" width="350">
+
+Login
+
+<img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignIn.png" width="350">  <img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignUp.png" width="350"> 
 
 
 ------
