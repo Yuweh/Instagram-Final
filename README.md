@@ -12,11 +12,13 @@ works with
 Still in Progress XD
 
 Home
-<img src="https://github.com/Yuweh/Instagram-Final/blob/master/Screenshots/UpdatedHome.png" width="350"> <img src="https://github.com/Yuweh/Instagram-Final/blob/master/Screenshots/Camera.png" width="350">
+
+<img src="https://github.com/Yuweh/Instagram-Final/blob/master/Screenshots/UpdatedHome.png" width="300"> <img src="https://github.com/Yuweh/Instagram-Final/blob/master/Screenshots/Camera.png" width="300">
+
 
 Login
 
-<img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignIn.png" width="350">  <img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignUp.png" width="350"> 
+<img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignIn.png" width="300">  <img src="https://github.com/Yuweh/Instagram-Final/blob/master/HobbyGram-SignUp.png" width="300"> 
 
 
 ------
